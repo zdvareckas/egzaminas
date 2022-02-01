@@ -1,0 +1,128 @@
+
+@media(max-width: 1000px){
+
+    nav{
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+  
+      div{
+        justify-content: space-between;
+        margin: 0;
+  
+        img{
+          margin-left: 20px;
+        }
+      }
+  
+      a{
+        display: none;
+      }
+  
+      #burger{
+        display: block;
+        margin-right: 20px;
+      }
+  
+      .links{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+      }
+    }
+  
+    body{
+      overflow-x: hidden;
+  
+      header{
+        
+        .head-content{
+          margin-left: 0;
+          h1{
+              width: 90%;
+          }
+          article{
+            width: 90%;
+          }
+        }
+        .head-form{
+          margin-right: 0;
+        }
+      }
+  
+      .socials{
+        flex-direction: column;
+        padding: 20px 0;
+        .socials-text{
+          align-items: center;
+          justify-content: center;
+  
+          p{
+            text-align: center;
+          }
+        }
+      }
+  
+      .features-panel1{
+        flex-direction: column;
+  
+        .features-content{
+          flex-direction: column;
+          justify-content: center;
+  
+          .features-text{
+            margin: 0 auto;
+          }
+  
+          .features-img{
+            display: flex;
+            align-items: center;
+            width: auto;
+          }
+  
+        }
+        .features-btn{
+          flex-direction: row;
+        }  
+      }
+  
+      .features-panel2{
+        img{
+          display: none;
+        }
+      }
+  
+      .process-panel{
+        .process-container{
+          flex-direction: column;
+        }
+      }
+  
+      .pricing-panel{
+  
+        .pricing-plans{
+          flex-direction: column;
+          align-items: center;
+  
+          .plan{
+            width: 80%;
+
+          }
+        }
+      }
+  
+      .contact-panel{
+        height: 650px;
+      }
+  
+      footer{
+        flex-direction: column;
+        align-items: center;
+  
+        p{
+         padding-top: 30px;
+        }
+      }
+    }
+}
